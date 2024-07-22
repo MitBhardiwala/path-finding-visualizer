@@ -397,9 +397,9 @@ export default class PathfindingVisualizer extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
-          <a className="navbar-brand" href="/">
-            <b>PathFinding Visualizer</b>
-          </a>
+         
+          <p>Path Finding Visualizer</p>
+       
           <button
             className="navbar-toggler"
             type="button"
@@ -413,12 +413,7 @@ export default class PathfindingVisualizer extends Component {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="">
-                  {' '}
-                  PathFinder Visualizer code{' '}
-                </a>
+               
               </li>
               
             </ul>
