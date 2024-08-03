@@ -415,8 +415,8 @@ export default class PathfindingVisualizer extends Component {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="">
-                  {' '}
+                  href="https://github.com/MitBhardiwala/path-finding-visualizer">
+                  {''}
                   PathFinder Visualizer code{' '}
                 </a>
               </li>
@@ -426,7 +426,7 @@ export default class PathfindingVisualizer extends Component {
         </nav>
 
         <table
-          className="grid-container"
+          className="grid_container"
           onMouseLeave={() => this.handleMouseLeave()}>
           <tbody className="grid">
             {grid.map((row, rowIdx) => {
